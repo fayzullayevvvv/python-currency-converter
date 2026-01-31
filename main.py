@@ -17,6 +17,6 @@ def main() -> None:
 
     result = converter(amount, currency)
 
-    print(result)
+    print(f"{result:,.2f}")
 
 main()
